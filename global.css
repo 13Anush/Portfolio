@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+:root {
+    
+    /* fonts */
+    --font-outfit: Outfit;
+    --font-chomsky: Chomsky;
+    --font-riccione-serial: Riccione-Serial;
+    
+    /* font sizes */
+    --font-size-8xl-1: 27.1px;
+    --font-size-lg: 18px;
+    --font-size-2xl-4: 21.4px;
+    --font-size-lgi-1: 19.1px;
+    --font-size-10xl-3: 29.3px;
+    --font-size-base-8: 15.8px;
+    --font-size-smi-4: 12.4px;
+    --font-size-2xs-1: 10.1px;
+    --font-size-xs-3: 11.3px;
+    --font-size-mini-6: 14.6px;
+    --font-size-5xl-8: 24.8px;
+    --font-size-3xl-5: 22.5px;
+    
+    /* Colors */
+    --color-white: #fff;
+    --color-gray-100: #222;
+    --color-gray-200: #181818;
+    --color-gray-300: rgba(255, 255, 255, 0);
+    --color-silver: #bdbfc6;
+    --color-black: #000;
+    --color-darkslategray: #3d3d3d;
+    
+}
