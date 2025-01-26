@@ -1,3 +1,38 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    gap: 50px;
+    z-index: 1000;
+    background-color: var(--color-gray-200); /* Adjust as needed */
+    padding: 10px 20px; /* Adjust as needed */
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-start; /* Align items to the left */
+}
+.a {
+    letter-spacing: 0.03em;
+    }
+    .s {
+    letter-spacing: -0.2em;
+    }
+.as {
+    width: 49.5px;
+    position: relative;
+    font-size: 32.63px;
+    text-transform: uppercase;
+    font-family: var(--font-chomsky);
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+}
+
 .screenshot-2025-01-10-201910-5 {
     position: absolute;
     top: 3119.63px;
@@ -1870,6 +1905,8 @@
     width: 462.4px;
     height: 124.9px;
 }
+
+
 .b00045a7d97-2-icon {
     position: absolute;
     top: 3260.25px;
@@ -2084,49 +2121,29 @@
     height: 286.9px;
     object-fit: cover;
 }
-.a {
-    letter-spacing: 0.03em;
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;/* Set background to black */
+    padding: 10px 20px; /* Adjust as needed */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the items */
 }
-.s {
-    letter-spacing: -0.2em;
-}
-.as {
-    position: absolute;
-    top: 10.12px;
-    left: 75.38px;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 49.5px;
-    cursor: pointer;
-}
-.home {
-    position: relative;
-    line-height: 160%;
-    font-weight: 300;
-    cursor: pointer;
-}
+
 .home-parent {
-    position: absolute;
-    top: 16.88px;
-    left: 583.87px;
-    width: 816.8px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-size: var(--font-size-lg);
+    display: flex; /* Use flexbox for the home-parent */
+    gap: 80px; /* Add space between items */
     font-family: var(--font-outfit);
+    font-size: 18px;
 }
-.as-parent {
-    position: absolute;
-    top: calc(50% - 2697.5px);
-    left: calc(50% - 720px);
-    background-color: var(--color-gray-100);
-    width: 1445px;
-    height: 64px;
-    font-size: 32.63px;
-    color: var(--color-white);
-    font-family: var(--font-chomsky);
+
+.home {
+    color: white; /* Change text color to white for visibility */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: 500; /* Adjust font weight */
+    cursor: pointer; /* Pointer cursor on hover */
 }
 .linkedin10 {
     position: absolute;
